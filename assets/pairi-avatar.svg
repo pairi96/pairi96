@@ -1,0 +1,64 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">파이리 아바타</title>
+  <desc id="desc">꼬리에 불꽃이 있는 주황색 작은 도마뱀 스타일의 오리지널 파이리 아바타</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#fff1c7"/>
+      <stop offset="55%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#20110a"/>
+    </radialGradient>
+    <linearGradient id="body" x1="130" y1="92" x2="294" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="0.55" stop-color="#ff7a1a"/>
+      <stop offset="1" stop-color="#e34a12"/>
+    </linearGradient>
+    <radialGradient id="belly" cx="45%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#fff2bf"/>
+      <stop offset="1" stop-color="#ffd36b"/>
+    </radialGradient>
+    <radialGradient id="flame" cx="48%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#fff8a8"/>
+      <stop offset="0.42" stop-color="#ffb000"/>
+      <stop offset="1" stop-color="#ff3d00"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#1a0b03" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <circle cx="210" cy="210" r="198" fill="url(#bg)"/>
+  <circle cx="210" cy="210" r="190" stroke="#ffdf8a" stroke-width="6" opacity="0.85"/>
+
+  <!-- tail -->
+  <path d="M270 278 C345 270 358 198 311 181 C277 169 260 205 284 226 C307 246 338 225 327 198" stroke="#dc5518" stroke-width="34" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M327 180 C305 147 337 125 348 94 C364 123 394 135 382 172 C374 199 350 209 327 180Z" fill="url(#flame)" stroke="#fff0a8" stroke-width="5"/>
+  <path d="M342 170 C333 153 350 140 354 123 C363 141 377 150 371 169 C366 185 353 190 342 170Z" fill="#fff6a5" opacity="0.9"/>
+
+  <!-- body -->
+  <ellipse cx="210" cy="247" rx="86" ry="98" fill="url(#body)" filter="url(#shadow)"/>
+  <ellipse cx="211" cy="270" rx="48" ry="58" fill="url(#belly)" opacity="0.95"/>
+
+  <!-- head -->
+  <path d="M125 150 C128 94 170 64 215 67 C268 70 305 108 300 163 C295 219 249 243 199 238 C152 233 121 200 125 150Z" fill="url(#body)" filter="url(#shadow)"/>
+  <path d="M154 93 C142 74 146 55 153 40 C169 55 183 70 185 91Z" fill="#ff9a27"/>
+  <path d="M263 97 C274 75 293 63 310 56 C309 78 304 97 289 113Z" fill="#ff8a1f"/>
+
+  <!-- arms -->
+  <path d="M135 242 C104 239 93 262 101 282 C125 277 141 264 151 248Z" fill="#f06a18"/>
+  <path d="M285 242 C316 239 327 262 319 282 C295 277 279 264 269 248Z" fill="#f06a18"/>
+
+  <!-- legs -->
+  <path d="M158 328 C134 344 138 368 178 358 C187 351 190 340 184 329Z" fill="#d94c12"/>
+  <path d="M262 328 C286 344 282 368 242 358 C233 351 230 340 236 329Z" fill="#d94c12"/>
+
+  <!-- face -->
+  <ellipse cx="177" cy="148" rx="17" ry="25" fill="#1b120d"/>
+  <ellipse cx="242" cy="148" rx="17" ry="25" fill="#1b120d"/>
+  <circle cx="182" cy="139" r="6" fill="#ffffff"/>
+  <circle cx="247" cy="139" r="6" fill="#ffffff"/>
+  <path d="M199 174 C207 181 218 181 226 174" stroke="#4a1c10" stroke-width="6" stroke-linecap="round"/>
+  <path d="M149 171 C135 165 128 155 126 142" stroke="#7c2a14" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M292 171 C306 165 313 155 315 142" stroke="#7c2a14" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+
+  <text x="210" y="392" text-anchor="middle" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800" fill="#fff0c7">파이리</text>
+</svg>
